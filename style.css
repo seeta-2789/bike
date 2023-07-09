@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+:root{
+    --green:#27ae60;
+    --black:#192a56;
+    --light-color:#666;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+
+}
+*{
+  font-family: 'Nunito' sans-serif;
+  margin: 0;padding: 0;
+  text-decoration: none;
+  outline: 0;border: 0;
+
+}
+header{
+  background-color: black;
+  padding: 0.5rem 7%;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  z-index: 1000;
+}
+header .logo{
+  color: #d1291c;
+  font-size: 1.7rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+header.logo i{
+  color: #d1291c;
+}
+header .navbar a{
+  font-size: 1rem;
+  border-radius:.3rem ;
+  padding: .3rem 0.7rem;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: capitalize;
+  
+}
+/* header .navbar a.active, */
+header .navbar a:hover{
+  color: #d1291c;
+  background:#fff;
+}
+.btn-hero{
+  display: inline-block;
+  font-size: 1.1rem;
+  color: #fff;
+  padding: .2rem 0.7rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Mr Eaves XL Modern", "Helvetica Neue", Helvetica, Arial, sans-serif;
+margin-top: 0.5rem;
+  
+  
+}
+.btn-hero:hover{
+  color: #d1291c;
+  font-weight: bold;
+  
+}
+header .icons i{
+    cursor:pointer;
+    margin-left: .5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    width: 2.5rem;
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--black);
+    border-radius:50%;
+    background: #eee;
+    
+}
+
+.wrapper{
+  background-image: url(./images/bike.jpg);
+  width: 100%;
+  height: 40rem;
+  background-position: center;
+  background-size: cover;
+  
+}
+.main-wrapper{
+  text-align: right;
+  justify-content: right;
+   margin-right: 5rem;
+  padding-top: 10rem;
+  color: #fff;
+  
+}
+.main-wrapper h1{
+  margin-right: 14rem;
+  font-family: "guardiansans-semibold";
+  font-weight:bold;
+  text-transform: capitalize;
+  font-size: 1.9rem;
+
+}
+.main-wrapper p{
+  font-family: "montserrat-regular";
+  font-size: 1.1rem;
+  font-weight:500;
+}
+.button{
+  color: #fff;
+  border: 1px solid #fff;
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.3rem 1rem;
+  background: transparent;
+  margin-right: 12rem;
+  font-family: "montserrat-regular";
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.button:hover{
+  background: #fff;
+  color:black;
+}
+.content{
+  background-image: url(./images/bike\ new.jpg);
+  width: 100%;
+  height: 90vh;
+  background-position: center;
+  background-size: cover;
+  
+}
+.main-content{
+  text-align: left;
+  justify-content: left;
+  margin-left: 5rem;
+  padding-top: 10rem;
+  color:black;
+
+}
+.main-content h1{
+  font-size: 1.5rem;
+  font-family: "guardiansans-semibold";
+  font-weight: bold;
+  
+}
+.main-content p{
+  font-family: "montserrat-regular";
+  font-size: 1rem;
+  font-weight:600;
+}
+
+.banner{
+  background-image: url(./images/bike5.jpg);
+  width: 100%;
+  height: 90vh;
+  background-position: center;
+  background-size: cover;
+}
+.main-banner{
+  text-align: left;
+  justify-content: left;
+  margin-left: 5rem;
+  padding-top: 10rem;
+  
+}
+.main-banner h1{
+  font-family:"guardiansans-semibold";
+  font-size: 1.9rem;
+  font-weight: bold;
+}
+.main-banner p{
+  font-family:  "montserrat-regular";
+  font-size: 1rem;
+  font-weight: 600;
+}
+.contanier{
+  background-color:black;
+}
+.main-contanier{
+  padding: 2.5rem;
+}
+.bike{
+  background-image: url(./images/new3.jpg);
+  width: 100%;
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+}
+.main-bike{
+  text-align: right;
+  justify-content: right;
+  margin-right: 18rem;
+  padding-top: 14rem;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.main-bike h1{
+  color: #fff;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+.hero-button{
+  color: #fff;
+  border: 1px solid #fff;
+  display: inline-block;
+  padding: 0.3rem 1rem;
+  background: transparent;
+  font-weight: 600;
+  text-decoration: none;
+  margin: 1.5rem;
+
+}
+.hero-button:hover{
+  color: black;
+  background: #fff;
+}
+.hello{
+  background-color:#212121;
+  padding: 0.7% 1rem;
+}
+.hello h1{
+  text-align: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.picture{
+  background-image: url(./images/pic3.jpg);
+  width: 100%;
+  height: 120vh;
+  background-position: center;
+  background-size: cover;
+  
+}
+.main-picture{
+  text-align: left;
+  justify-content: left;
+  font-size: 1.1rem;
+  color: #fff;
+  font-weight: 600;
+  padding-top: 14rem;
+  margin-left: 6rem;
+}
+.gear{
+  background-color: #212121;
+  padding: 0.7% 1rem;
+}
+.gear h1{
+  text-align: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: bolf;
+}
+.biker{
+  background-image: url(./images/new4.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.main-biker{
+  text-align: left;
+  justify-content: left;
+  margin-left: 6rem;
+  padding-top: 20rem;
+  color: #fff;
+  text-transform: capitalize;
+
+}
+.main-biker h1{
+  font-size: 1.6rem;
+  font-weight: bold;
+  font-family: 'Nunito' sans-serif;
+
+}
+.last{
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.last1{
+  width: 40%;
+
+}
+.last2{
+  width: 40%;
+
+}
+.last3{
+  width: 40%;
+
+}
+.last1 img{
+  width: 100%;
+  transition: 0.5s all ease-in-out;
+}
+.last2 img{
+  width: 100%;
+  transition: 0.5s all ease-in-out;
+}
+.last3 img{
+  width: 100%;
+  transition: 0.5s all ease-in-out;
+}
+.last1:hover img{
+opacity: 0.5;
+}
+.last2:hover img{
+  opacity: 0.5;
+}
+.last3:hover img{
+  opacity: 0.5;
+}
+.last-one{
+  text-align: left;
+  justify-content: left;
+  padding: 1rem;
+  color: #212121;
+  font-weight: bold;
+  font-family: 'Nunito' sans-serif;
+
+}
+.maps{
+  background-color: #212121;
+  padding: 0.4% 0.7rem;
+}
+.rides{
+  display: flex;
+  width: 100%;
+
+}
+.images{
+  width: 5%;
+  margin-top: 1rem;
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
+.images img{
+  width: 100%;
+}
+.rider{
+  clear: both;
+  display:inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #fff;
+  margin-top: 1rem;
+}
+.rider:hover{
+  color: #d1291c;
+  font-weight: bold;
+}
+.join{
+  display: flex;
+  text-align: right;
+  justify-content: right;
+  padding-top: 2.5rem;
+}
+.main-join{
+  padding-right: 1rem;
+  color: #212121;
+  font-weight: 600;
+}
+.icons{
+  margin-right: 5rem;
+  
+}
+.lastpage{
+  display: flex;
+  width: 100%;
+}
+.motors{
+  margin: 1.5rem;
+}
+.motors h4{
+  color:#212121 ;
+  font-size: 1.1rem;
+  font-weight:bold;
+  font-family: 'Nunito' sans-serif;
+
+}
+.motors h4:hover{
+  color:#d1291c ;
+}
+.motors p{
+  font-family: 'Nunito' sans-serif;
+font-size: 0.9rem;
+margin-top: 1rem;
+font-weight: 500;
+}
+
+.tag{
+  color: #212121;
+  font-size: 0.7rem;
+}
+.tag h6{
+  color:#212121;
+  font-size: 0.7rem;
+  text-decoration: none;
+  margin-left: 0.6rem;
+}
+.tag p{
+  text-align: right;
+  justify-content: right;
+  display: flex;
+  font-weight: 600;
+}
